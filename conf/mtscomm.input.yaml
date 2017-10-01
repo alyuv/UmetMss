@@ -1,0 +1,22 @@
+circuit: "mtscomm.input"
+active: True
+description: "Get messages from mtscomm directory"
+type: "file"
+encoding: "windows-1251"
+rootDir: "D:/IRAM"
+watchDir: "Link/ASPD_S_TEST" 
+timeout: 5
+accept: ""
+subscribers: ""
+logging:
+  active: True
+  level: "debug"
+  dir: "mtscomm.gcti.log"
+  file: "circuit.mtscomm.log"
+  backupCount: 5
+  when: "d"
+  encoding: "cp1251"
+  interval: 10
+  maxBites: 20480000
+  msgFormat: ""
+  size: 4048
